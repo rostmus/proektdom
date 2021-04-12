@@ -1,0 +1,180 @@
+.logo {
+    background-image: url("https://st.depositphotos.com/1156123/3610/i/600/depositphotos_36102575-stock-photo-white-deer-head-on-dark.jpg ");
+    width: 120px;
+    background-repeat: no-repeat;
+    background-color:black;
+    background-size: contain;
+}
+
+body {
+    width: 100%;
+}
+
+.upper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    color: white;
+    box-shadow: 10px 10px  gray;
+}
+
+.up_info {
+    padding-left: 40px;
+    width: 100%;
+    background-color: black;
+}
+.menu_list {
+    display: flex;
+    
+}
+ul {
+    list-style-type: none;
+}
+.menu_list_item {
+margin-left: 75px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: gold;
+    border-bottom: 1px solid white;
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px white;
+}
+
+
+.up_main {
+    border-left: 1px solid white;
+    padding: 10px;
+    width: 50%
+}
+
+h1 {
+    margin: 0;
+}
+
+.menu {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    max-width: 1000px;
+    padding: 15px 0;
+}
+ul {
+    margin: 0;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-left: 5px solid white;
+    border-bottom: 5px solid black;
+    padding-left: 10px;
+}
+span {
+    font-weight: bold;
+}
+h2 {
+    margin: 0;
+    padding: 20px ;
+    color: white;
+    background-color: black;
+}
+.list {
+    margin-top: 50px;
+}
+.list_items {
+    margin: 25px 0;
+}
+
+html {
+    background-image: url("https://images.wallpaperscraft.ru/image/fon_seryj_abstraktsiya_svetlyj_95691_1920x1080.jpg");
+    background-size: cover;
+
+}
+
+.main_header {
+    margin: 20px 0;
+    font-size: 40px;
+    text-decoration: underline;
+    padding: 20px;
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+@media(max-width: 768px) {
+    .menu {
+        max-width: none;
+        font-size: 10px;
+    }
+
+    .menu_list_item:nth-child(1) {
+        margin-left: 0;
+    }
+
+.menu_list_item:nth-child(n+2) {
+    margin: 0 0 0 5%;
+}
+
+
+    h2 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    body {
+        width: 100%;
+    }
+    
+    .main_header {
+        font-size: 22px;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    main {
+        width: 92%;
+        max-width: none;
+        margin-left: 4%;
+        margin-right: 4%;
+        border: none;
+        padding: 0;
+    }
+
+    .upper {
+        width: 100%;
+        display: flex;
+        color: white;
+        box-shadow: none;
+        margin: 0;
+    }
+    
+    body {
+        width: 100%;
+        margin: 0;
+    }
+    .list {
+        margin: 50px 0 0 0;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    .logo {
+        width: 20%;
+        margin: 0;
+    }
+    .up_info {
+        padding-left: 5%;
+    }
+    h1 {
+        font-size: 5vw;
+    }
+}

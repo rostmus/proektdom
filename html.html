@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+
+<body>
+    <header>
+        <div class="upper">
+            <div class="logo"></div>
+            <div class="up_info">
+                <div class="up_main">
+                    <h1>Все для моего обучения</h1>
+                </div>
+                <div class="menu">
+                    <ul class="menu_list">
+                        <li class="menu_list_item"><a href="html.html">HTML</a></li>
+                        <li class="menu_list_item"><a href="css.html">CSS</a></li>
+                        <li class="menu_list_item"><a href="java.html">JAVA</a></li>
+                        <li class="menu_list_item"><a href="git.html">GIT</a></li>
+                        <li class="menu_list_item"><a href="page1.html">MAIN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="main_header">Html разметка</h1>
+        <div class="list">
+            <div class="list-teg">
+                <h2>Теги для разметки текста</h2>
+                <div class="list_items">
+                    <ul>
+                        <li><span>p</span> - параграф, абзац (paragraph)</li>
+                        <li><span>h1-h6</span> - заголовки от большего к меньшему</li>
+                        <li><span>blockquote</span> - разметка блоков, цитат</li>
+                        <li><span>q</span> - цитата по тексту</li>
+                        <li><span>strong</span> сделать акцент на слове, фразе,обозначить важность</li>
+                        <li><span>em</span> - выделить слово</li>
+                        <li><span>a</span> - слово и фразу сделать гиперссылкой =href</li>
+                        <li><span>img</span> - вставка картинки в документ =src-ссылка =alt-обязательная подпись если не
+                            грузится</li>
+                        <li><span>span></span> не имеет сысловой нагрзки - для выделения</li>
+                        <li><span>figure></span> - для обозначения доски почета – выделения в рамку</li>
+                        <li><span>figcaption></span> - для создания подписей к доске почета</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="list-teg">
+                <h2>Теги для списков</h2>
+                <div class="list_items">
+                    <ul>
+                        <li><span>ul></span> - родительский тег – обозначение неупорядочного списка</li>
+                        <li><span>ol></span> - родительский тег – обозначение упорядочного списка</li>
+                        <li><span>li></span> - тег списка – перечисление наименований</li>
+                        <li><span>dl></span> - список описаний</li>
+                        <li><span>dt></span> - тег в который заключается термин</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="list-teg">
+                <h2>Теги для таблиц</h2>
+                <div class="list_items">
+                    <ul>
+                        <li><span>dd></span> - тег в котором размещается определение таблицы</li>
+                        <li><span>table></span> - начало таблицы + основа-дальше варианты</li>
+                        <li><span>thead></span> - для обозначения заголовков – выделяется и жирным шрифтом</li>
+                        <li><span>tbody></span> - для обозначения тела таблицы</li>
+                        <li><span>tfoot></span> - для подсчета итогов</li>
+                        <li><span>tr></span> - обозначение в таблице количества строк</li>
+                        <li><span>td></span> - для остальных обозначений и перечисления ячеек</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="list-teg">
+                <h2>Теги для html верстки</h2>
+                <div class="list_items">
+                    <ul>
+                        <li><span>html></span> - для обозначения вида документа =lang –для какого языка. Начинается и
+                            конч
+                            страницы
+                        </li>
+                        <li><span>head></span>- для обозначения характеристик страницы. Не отображается на странице</li>
+                        <li><span>body></span> - для обозначения тела страницы-все что показывается на сайте</li>
+                        <li><span>title></span> - тот текст что показывается во вкладке</li>
+                        <li><span>meta></span> - для обозначения кодировки =charset “utf-8”</li>
+                        <li><span>link></span> - Для подгрузки библиотек или внешних ресурсов = href =rel-какой тип
+                            файла</li>
+                        <li><span>!doctype html></span> - показывает браузеру по каким правилам отображать – в начало
+                            страницы
+                            всегда</li>
+                        <li><span>script></span> - для подключении Java скриптов</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="list-teg">
+                <h2>Теги для разметки страницы</h2>
+                <div class="list_items">
+                    <ul>
+                        <li><span>div></span>-не имеет смысловой нагрузки. используется для группирования элементов.
+                            присваиваем
+                            class= по смыслу,только на английском, строчные,не пробел а "-"</li>
+                        <li><span>main></span>-используется для обозначения уникальной и основной части страницы</li>
+                        <Li><span>aside></span>-используется для обозначения части страницы, связанной по смыслу, но
+                            которую
+                            можно
+                            свободно удалить, не изменив смысл статьи и без ущерба для нее</Li>
+                        <li><span>section></span>-используется для тематически сгрупированного контента, у которого
+                            должен быть
+                            свой
+                            заголовок</li>
+                        <li><span>article></span>-независимая область, можно вынести - смысл не изменится нигде,
+                            например
+                            рекламные
+                            баннеры, внутри должен быть свой заголовок</li>
+                        <li><span>header></span>-для обозначения шапки сайта</li>
+                        <li><span>footer></span>-для обозначения подвала сайта</li>
+                        <li><span>nav></span>-для обозначения элементов навигации</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="list-teg">
+                <h2>Теги для вертски форм</h2>
+                <div class="list_items">
+                    <ul>
+                        <li><span> input></span> позволяет создать поле для ввода текста и его отправки, имеет значения
+                            (type) text-текст, mail -почта, password-пароль</li>
+                        <li><span></span></li>
+                        <li><span> textarea></span> создание области в которую можно вводить текст в отличии от input
+                            где слово</li>
+                        <li><span>button></span> - добавляет кнопку. имеет несколько хзначения.
+                            <span>button</span>-ничего не делает <span>reset</span>-сбрасывает
+                            значения<span>submint</span>-кнопка отправки значения</span>
+                        </li>
+                        <li><span>form></span> вместо дива обьединяет все что связано в формой ввода - чтобы кнопки
+                            работали</li>
+                        <li><span>label></span> - используется для ссылки акцента с наведения на текст input - в инпуту
+                            присвается id а лайбл используется for к id</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="list-teg">
+                <h2>Атрибуты для разметки текста</h2>
+                <div class="list_items">
+                    <ul>
+                        <li><span>="id"</span>задать тегу универсальный индетификатор,позволяющий затем ссылаться на
+                            него</li>
+                        <li><span>="class"</span>-задать один или несколько классов для управления внешнего вида</li>
+                        <li><span>="cite"</span>-специальный атрибут для тега <span>blockquote</span> показывающий
+                            автора или источник</li>
+                        <li><span>="href"</span> - сообщает браузеру куда перенаправлять пользователя в гиперссылке</li>
+                        <li><span>="title"</span> - показывает подсказку при наведении на ссылку</li>
+                        <li><span>="src"</span>указывает Url ссылку с изображением для тега <span>img</span></li>
+                        <li><span>="alt"</span> - показывает текстовое обьяснения картинки если оно не грузится</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="list-teg">
+                <h2>Атрибуты для списков и таблиц</h2>
+                <div class="list_items">
+                    <ul>
+                        <li><span>="start"</span>атрибут в котором указывается с чего начать при разбивке списка</li>
+                        <li><span>="colspan"</span> - обьединяет ячейки</li>
+                        <li><span>="rownspan"</span> - объединяет столбцы</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="list-teg">
+                <h2>Атрибуты для верстки форм</h2>
+                <div class="list_items">
+                    <ul>
+                        <li><span>="placeholder"</span> - атриут, для обозначении подсказки, тега <span>input</span>,
+                            что надо вводить</li>
+                        <li><span>="required"</span> обьявляет поле для заполнения обязательным и проверяет перед
+                            отправкой форм</li>
+                    </ul>
+                </div>
+            </div>
+    </main>
+</body>
+
+</html>

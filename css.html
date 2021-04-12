@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+
+<body>
+    <header>
+        <div class="upper">
+            <div class="logo"></div>
+            <div class="up_info">
+                <div class="up_main">
+                    <h1>Все для моего обучения</h1>
+                </div>
+                <div class="menu">
+                    <ul class="menu_list">
+                        <li class="menu_list_item"><a href="html.html">HTML</a></li>
+                        <li class="menu_list_item"><a href="css.html">CSS</a></li>
+                        <li class="menu_list_item"><a href="java.html">JAVA</a></li>
+                        <li class="menu_list_item"><a href="git.html">GIT</a></li>
+                        <li class="menu_list_item"><a href="page1.html">MAIN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="main_header">Css Свойства</h1>
+        <div class="list">
+            <div class="list-teg">
+                <h2>Свойства текста</h2>
+                <div class="list_items">
+                    <ul>
+                        <li><span>Font-size</span> – размер шрифта в % или px</li>
+                        <li><span>Font-weight</span> – жирность текста <span>bold</span>-жирный <span>Normal</span> –
+                            нормальный</li>
+                        <li><span>Font-style</span> – стиль текста <span>italic</span> – курсив
+                            <span>oblique</span>-наклон</li>
+                        <li><span>Font-family</span> –название или семейство шрифта <span>serif</span>-с засечками
+                            <span>sans-serif</span> – рубленные
+                            cursive-курсивный <span>inherit</span>-свойство родителя
+                            fantasy-декоративные monospace-моноширинные</li>
+                        <li><span>Color</span> – цвет</li>
+                        <li><span>Line-height</span> – медстрочный интервал</li>
+                        <li><span>Text-decoration underline</span> – подчеркнутый <span>overline</span>-над текстом
+                            <span>blink</span> – мигающий
+                            <span>line-through</span>
+                            – зачеркнутый
+                        </li>
+                        <li><span>Text-transform</span> uppercase</span> – все заглавные lowercase</span> – строчные
+                        </li>
+                        <li><span>Text-align</span> выравнивание left</span> – лево rught</span> center justify</span> –
+                            по ширине, start</span>-автоматом
+                            проставляют сторону для страны</li>
+                        <li><span>background-color</span> - фоновый цвет или RGB или 16ричный код или название цвета
+                        </li>
+                        <li><span>background-image</span> - фоновая картинка, в порядке url("ссылка")</li>
+                        <li><span>background-repiat</span> - указывает повторять ли картинку, no-repiat</span>-не
+                            повторять repiat-x</span>-по
+                            оси x repiat</span>-по всем
+                            осям</li>
+                        <li><span>background-attachment</span>fixed - картинка не двигается на фоне, двигается контент
+                        </li>
+                        <li><span>background-position</span> - выравнивание по координатам фонового изображения
+                            относительно
+                            врехнего угла в px или
+                            ключевые слова left</span> right</span> top</span> center</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="list-teg">
+                <h2>Свойства списков</h2>
+                <div class="list_items">
+                    <ul>
+                        <li><span>List-style-type</span> определяет тип маркера
+                            Для маркированных –disc</span> –кружок circle</span>-пустой кружок square</span>-квадрат
+                            Для нумерованных decimal</span>-арабские цифры lower</span>-roman-строчные римские
+                            upper</span>-roman-заглавные римские
+                            lower-alpha</span>-строчные латинские upper-alpha</span>-заглавные латинские
+                            list-style-image</span>-любая картинка в
+                            виде
+                            маркера </li>
+                        <li><span>list-style-position</span> указвыает положение маркера списка outside</span> – снаружи
+                            inside</span>-внутри
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="list-teg">
+                <h2>Свойства для изображений</h2>
+                <div class="list_items">
+                    <ul>
+                        <li><span>float</span> left</span>-блок figure</span> будет слева, текст обтекать справа
+                            right</span> - наоборот</li>
+                        <li><span>padding</span>-внутренние отступы
+                            -top</span>-сверху,-bottom</span>-снизу,-left</span>-слева,right</span>-справа padding:
+                            40px
+                            30px 20px 10px
+                            по часовой сверху</li>
+                        <li><span>border</span> - задает рамку и включает несколько стилей
+                            <ol>
+                                <li>-width - толщина(можно для каждой стенки отдельно border-right-width или
+                                    border-width: 1px
+                                    2px
+                                    3px
+                                    4px), </li>
+                                <li>-style-вид рамки(dotted-точки, dashed-пунктиром, solid-линия, double-двойная линия,
+                                    groove-вырезано,ridge-оконтовка выше, inset-вдавлено, outset-выдавлено)</li>
+                                <li>-color-цвет тоже или поотдельности каждую сторону или одним</li>
+                            </ol>
+                            задаем 3 свойства одной строкой border:1px dotted #000000
+                        <li><span>margin</span>-внешние отступы рамки, также или поотдельности top right bot left или
+                            margin:
+                            40px
+                            30px 20px 10px, left и right-можно выставить auto если назначена толщина элемента
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="list-teg">
+                <div class="list_items">
+                    <h2>Свойства для структуры контента</h2>
+                    <ul>
+                        <li><span>width</span>-задает ширину выделенной области</li>
+                        <li><span>box-sizing</span>-алгоритм рассчет ширины и
+                            высоты,content-box-стандартный,border-box-считать
+                            сам,задавать ширину и высоту элемента и не области</li>
+                        <li><span>display</span>-задает линейный или блочный тип- block flex- если блочный список надо
+                            выстроить
+                            в
+                            линию</li>
+                        <li><span>flex-direction</span>-изменить направление оси. row-по умолчанию,
+                            column-сверху-вниз,row-reverse-горизонтально обратно, volumn-reverse-снизу-вверх</li>
+                        <li><span>flex-wrap</span>-что флекс элементы переносились если невиещаются, а не с ужались -
+                            wrap-перенос,
+                            wrap-reverce-перенос наоборот</li>
+                        <li><span>Min-width</span> минимальная ширина</li>
+                        <li><span>max-width</span> максимальная ширина</li>
+                        <li><span>Min-height</span> минимальная высота</li>
+                        <li><span>Max-height</span> минимальная высота</li>
+                        <li><span>cursor</span> меняет курсор на какой то области - типовые значения text pointer</li>
+                        <li><span>outline</span> для псевдокласса :focus для обозначения рамки фокуса. суть как у border
+                        </li>
+                        <li><span>outline-offset</span> - для обозначения отступа рамки от кнопки или области</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
